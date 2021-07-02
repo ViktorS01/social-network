@@ -1,14 +1,15 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
-import Article from './Article';
-import Technologies from './Technologies';
-
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Main from "./components/Main";
 
 const App = () => {
   return (
-    <div className="App">
-      <Article />
-      <Technologies />
+    <div className="app-wrapper">
+        <Header />
+        <Nav />
+        <Main />
     </div>
   );
 };
