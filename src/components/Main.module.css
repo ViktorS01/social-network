@@ -1,0 +1,11 @@
+.main img {
+    width: 1200px;
+    height: 670px;
+}
+
+.main{
+    grid-area: main;
+    background-color: blue;
+
+    margin: 0 auto;
+}
