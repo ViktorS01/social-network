@@ -1,9 +1,9 @@
 import React from "react";
 import classes from "./Header.module.css";
-import logo from './../../img/svg1.png';
-import bell from './../../img/svg8.png';
-import sms from './../../img/svg9.png';
-import user from './../../img/avatar-2.jpg';
+import logo from '../../../img/svg1.png';
+import bell from '../../../img/svg8.png';
+import sms from '../../../img/svg9.png';
+import user from '../../../img/avatar-2.jpg';
 import {Button} from "@material-ui/core";
 
 export const HeaderComponent = () => {

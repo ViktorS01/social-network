@@ -1,0 +1,27 @@
+.main {
+    background-color: #f0f2f5;
+    width: 100%;
+}
+
+.dialogsTitle{
+    margin-left: 160px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.dialogsBlock {
+    border: 1px solid #e5e7eb;
+    display: grid;
+    grid-template-areas:
+            "search info"
+            "dialogs messages";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 4fr 10fr;
+    background-color: #fff;
+    width: 950px;
+    height: 500px;
+    margin: 0 auto;
+}
+

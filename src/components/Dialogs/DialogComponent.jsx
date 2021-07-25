@@ -1,10 +1,20 @@
 import React from "react";
-import s from './Dialogs.module.css';
+import classes from './Dialogs.module.css';
+import {SearchBlock} from "./SearchBlock/SearchBlock";
+import {StatusBlock} from "./StatusBlock/StatusBlock";
+import {CardsMessage} from "./CardsMessage/CardsMessage";
+import {MessageInfo} from "./MessageInfo/MessageInfo";
 
 export const DialogComponent = () => {
     return (
-        <div>
-            <p>Dialogs</p>
+        <div className={classes.main}>
+            <p className={classes.dialogsTitle}>Messages</p>
+            <div className={classes.dialogsBlock}>
+                <SearchBlock />
+                <StatusBlock />
+                <CardsMessage />
+                <MessageInfo />
+            </div>
         </div>
     )
 };

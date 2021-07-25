@@ -1,7 +1,7 @@
 import React from "react";
 import classes from './Nav.module.css';
 import {NavLink} from "react-router-dom";
-import user from './../../img/avatar-2.jpg';
+import user from '../../../img/avatar-2.jpg';
 
 export const NavComponent = () => {
     return (

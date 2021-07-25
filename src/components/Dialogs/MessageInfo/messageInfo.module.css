@@ -1,0 +1,54 @@
+.dialogsBlock__messages {
+    grid-area: messages;
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+}
+
+.messageBlock img{
+    border-radius: 100%;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.messageBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.revertMessageBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.revertMessageBlock img {
+    border-radius: 100%;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.messageMe{
+    background-color: blue;
+    color: white;
+}
+
+.messageYou{
+    background-color: grey;
+    color: white;
+    border-radius: 4%;
+}
+
+.messageContent{
+    padding: 0 20px;
+}
