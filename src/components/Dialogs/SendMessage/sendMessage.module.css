@@ -1,0 +1,24 @@
+.sendMessageBlock{
+    grid-area: send;
+    border: 1px solid #e5e7eb;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sendMessageBlock__input{
+    margin-left: 3px;
+    height: 28px;
+    width: 180px;
+    padding: 0 15px;
+    line-height: 48px;
+    font-size: 20px;
+    color: #808080;
+    font-weight: 400;
+    border: none;
+}
+
+.sendMessageBlock__button{
+    margin-right: 20px;
+}
