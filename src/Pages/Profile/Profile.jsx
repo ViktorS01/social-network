@@ -1,18 +1,18 @@
 import React from "react";
 import classes from './profile.module.css';
-import HeaderComponent from "../../components/Header/HeaderComponent";
-import NavComponent from "../../components/Nav/NavComponent";
-import DialogComponent from "../../components/Dialogs/DialogComponent";
+import {ProfileInfo} from "../../components/Main/ProfileInfo/ProfileInfo";
+import {MyPosts} from "../../components/Main/Posts/MyPosts";
+import {HeaderComponent} from "../../components/Header/HeaderComponent";
+import {NavComponent} from "../../components/Nav/NavComponent";
 
 export const Profile = () => {
     return (
         <>
-            <div className="app-wrapper">
-                <HeaderComponent/>
-                <NavComponent/>
-                <div className="app-wrapper-content">
-                    <DialogComponent/>
-                </div>
+            <HeaderComponent/>
+            <div className={classes.main}>
+                <NavComponent />
+                <ProfileInfo />
+                <MyPosts />
             </div>
         </>
     );

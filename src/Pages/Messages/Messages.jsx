@@ -7,12 +7,10 @@ import {DialogComponent} from "../../components/Dialogs/DialogComponent";
 export const Messages = () => {
     return (
         <>
-            <div className="app-wrapper">
-                <HeaderComponent/>
+            <HeaderComponent/>
+            <div className={classes.main}>
                 <NavComponent/>
-                <div className="app-wrapper-content">
-                    <DialogComponent/>
-                </div>
+                <DialogComponent/>
             </div>
         </>
     );

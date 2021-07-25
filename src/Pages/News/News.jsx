@@ -7,12 +7,10 @@ import {NewsComponent} from "../../components/News/NewsComponent";
 export const News = () => {
     return (
         <>
-            <div className="app-wrapper">
-                <HeaderComponent/>
+            <HeaderComponent/>
+            <div className={classes.main}>
                 <NavComponent/>
-                <div className="app-wrapper-content">
-                    <NewsComponent/>
-                </div>
+                <NewsComponent/>
             </div>
         </>
     );

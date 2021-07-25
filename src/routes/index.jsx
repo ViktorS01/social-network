@@ -1,7 +1,7 @@
 import React from "react";
 import {Route, Switch} from 'react-router-dom'
 import {Messages} from "../Pages/Messages/Messages";
-import {Profile} from "../components/Main/Profile";
+import {Profile} from "../Pages/Profile/Profile";
 import {Setting} from "../Pages/Setting/Setting";
 import {News} from "../Pages/News/News";
 import {Music} from "../Pages/Music/Music";

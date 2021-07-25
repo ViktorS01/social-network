@@ -7,12 +7,10 @@ import {MusicComponent} from "../../components/Music/MusicComponent";
 export const Music = () => {
     return (
         <>
-            <div className="app-wrapper">
-                <HeaderComponent/>
+            <HeaderComponent/>
+            <div className={classes.main}>
                 <NavComponent/>
-                <div className="app-wrapper-content">
-                    <MusicComponent />
-                </div>
+                <MusicComponent/>
             </div>
         </>
     );

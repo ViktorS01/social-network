@@ -1,12 +1,64 @@
-ul{
-    list-style: none;
+.nav{
+    width: 260px;
+    border: 1px solid #e5e7eb;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.nav{
-    grid-area: nav;
-    background-color: bisque;
+.userBlock{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border: 1px solid #e5e7eb;
+    background-color: #fff;
+    width: 100%;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+.userName p{
+    color: black;
+}
+
+.userInfo_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+    margin: 0 10px;
 }
 
 .activeLink{
     color: green;
+}
+
+.userAva{
+    border-radius: 100%;
+    width: 88px;
+    height: 88px;
+}
+
+.linksBar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 165px;
+}
+
+.link{
+    color: #707070;
+    text-decoration: none;
+    padding-top: 5px;
 }

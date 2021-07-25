@@ -7,12 +7,10 @@ import {SettingsComponent} from "../../components/Settings/SettingsComponent";
 export const Setting = () => {
     return (
         <>
-            <div className="app-wrapper">
-                <HeaderComponent/>
+            <HeaderComponent/>
+            <div className={classes.main}>
                 <NavComponent/>
-                <div className="app-wrapper-content">
-                    <SettingsComponent />
-                </div>
+                <SettingsComponent/>
             </div>
         </>
     );

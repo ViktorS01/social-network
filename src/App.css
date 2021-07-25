@@ -1,19 +1,8 @@
-.app-wrapper {
-  display: grid;
 
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
+/*.app-wrapper-content{*/
+/*  grid-area: main;*/
+/*  background-color: blue;*/
 
-  grid-template-areas:
-    "head head"
-    "nav main"
-  ;
-}
-
-.app-wrapper-content{
-  grid-area: main;
-  background-color: blue;
-
-  margin: 0 auto;
-  width: 1200px;
-}
+/*  margin: 0 auto;*/
+/*  width: 1200px;*/
+/*}*/
