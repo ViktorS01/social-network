@@ -1,12 +1,10 @@
 import React from "react";
 import s from './Dialogs.module.css';
 
-const Dialogs = () => {
+export const DialogComponent = () => {
     return (
         <div>
             <p>Dialogs</p>
         </div>
     )
 };
-
-export default Dialogs;

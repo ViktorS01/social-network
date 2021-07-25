@@ -1,14 +1,20 @@
 import React from "react";
-import MyPosts from "./Posts/MyPosts";
-import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import {MyPosts} from "./Posts/MyPosts";
+import {ProfileInfo} from "./ProfileInfo/ProfileInfo";
+import {HeaderComponent} from "../Header/HeaderComponent";
+import {NavComponent} from "../Nav/NavComponent";
 
-const Profile = () => {
+export const Profile = () => {
     return (
-        <div>
-            <ProfileInfo/>;
-            <MyPosts/>;
+        <div className="app-wrapper">
+            <HeaderComponent/>
+            <NavComponent/>
+            <div className="app-wrapper-content">
+                <div>
+                    <ProfileInfo/>;
+                    <MyPosts/>;
+                </div>
+            </div>
         </div>
     );
 };
-
-export default Profile;

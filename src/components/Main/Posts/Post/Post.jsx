@@ -1,6 +1,6 @@
 import React from "react";
 
-const Post = (props) => {
+export const Post = (props) => {
     return (
         <div>
             <div>{props.message}</div>
@@ -9,5 +9,3 @@ const Post = (props) => {
         </div>
     );
 };
-
-export default Post;
