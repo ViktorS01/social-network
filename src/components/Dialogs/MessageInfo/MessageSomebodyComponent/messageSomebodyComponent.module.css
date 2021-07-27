@@ -1,0 +1,26 @@
+.revertMessageBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.revertMessageBlock img {
+    border-radius: 100%;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.messageYou{
+    background-color: grey;
+    color: white;
+    border-radius: 4%;
+}
+
+.messageContent{
+    padding: 0 20px;
+}

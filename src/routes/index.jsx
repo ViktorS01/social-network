@@ -11,7 +11,7 @@ export const Routes = () => {
         <>
             <Switch>
                 <Route path="/messages" component={Messages}/>
-                <Route path="/profile" component={Profile}/>
+                <Route path="/" component={Profile}/>
                 <Route path="/settings" component={Setting}/>
                 <Route path="/news" component={News}/>
                 <Route path="/music" component={Music}/>
