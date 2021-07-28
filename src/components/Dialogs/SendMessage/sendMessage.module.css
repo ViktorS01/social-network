@@ -4,13 +4,13 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .sendMessageBlock__input{
     margin-left: 3px;
-    height: 28px;
-    width: 180px;
+    height: 58px;
+    width: 580px;
     padding: 0 15px;
     line-height: 48px;
     font-size: 20px;
@@ -20,5 +20,5 @@
 }
 
 .sendMessageBlock__button{
-    margin-right: 20px;
+    margin-right: 25px;
 }

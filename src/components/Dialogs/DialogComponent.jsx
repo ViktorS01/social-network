@@ -6,16 +6,17 @@ import {CardsMessage} from "./CardsMessage/CardsMessage";
 import {MessageInfo} from "./MessageInfo/MessageInfo";
 import {SendMessage} from "./SendMessage/SendMessage";
 
-export const DialogComponent = () => {
+export const DialogComponent = (props) => {
+
     return (
         <div className={classes.main}>
             <p className={classes.dialogsTitle}>Messages</p>
             <div className={classes.dialogsBlock}>
                 <SearchBlock/>
                 <StatusBlock/>
-                <CardsMessage/>
-                <MessageInfo/>
-                <SendMessage />
+                <CardsMessage users={props.users}/>
+                <MessageInfo messages={props.messages}/>
+                <SendMessage addMessage={props.addMessage}/>
             </div>
         </div>
     )

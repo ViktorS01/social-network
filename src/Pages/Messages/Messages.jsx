@@ -4,13 +4,15 @@ import {HeaderComponent} from "../../components/Navigation/Header/HeaderComponen
 import {NavComponent} from "../../components/Navigation/Nav/NavComponent";
 import {DialogComponent} from "../../components/Dialogs/DialogComponent";
 
-export const Messages = () => {
+export const Messages = (props) => {
     return (
         <>
             <HeaderComponent/>
             <div className={classes.main}>
                 <NavComponent/>
-                <DialogComponent/>
+                <DialogComponent messages={props.messages}
+                                 users={props.users}
+                                 addMessage={props.addMessage}/>
             </div>
         </>
     );

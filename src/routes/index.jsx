@@ -6,11 +6,14 @@ import {Setting} from "../Pages/Setting/Setting";
 import {News} from "../Pages/News/News";
 import {Music} from "../Pages/Music/Music";
 
-export const Routes = () => {
+export const Routes = (props) => {
+
     return (
         <>
             <Switch>
-                <Route path="/messages" component={Messages}/>
+                <Route path="/messages" render={() => <Messages messages={props.messages}
+                                                                users={props.users}
+                                                                addMessage={props.addMessage}/>}/>
                 <Route path="/" component={Profile}/>
                 <Route path="/settings" component={Setting}/>
                 <Route path="/news" component={News}/>
